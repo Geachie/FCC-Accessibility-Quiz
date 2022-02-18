@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
 body {
   background: #f5f6f7;
   color: #1b1b32;
@@ -162,4 +168,14 @@ footer {
   background-color: #2a2a40;
   display: flex;
   justify-content: center;
+}
+
+footer,
+footer a {
+  color: #d0d0d5;
+}
+
+address {
+  text-align: center;
+  padding: 0.3em;
 }
