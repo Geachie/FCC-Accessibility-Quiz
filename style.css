@@ -113,6 +113,11 @@ p::before {
   padding-bottom: 0;
 }
 
+.answer-list {
+  list-style: none;
+  padding: 0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -141,4 +146,20 @@ nav li:hover {
 li > a {
   color: inherit;
   text-decoration: none;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
+}
+
+footer {
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
 }
